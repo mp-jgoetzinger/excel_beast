@@ -15,10 +15,16 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "excel_beast"
-  gem.homepage = "http://github.com/dbldots/excel_beast"
+  gem.homepage = "http://github.com/mp-jgoetzinger/excel_beast"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{wrapper around writeexcel that allows really simple excel generation}
+  gem.description = <<-DESC.gsub('    ', '')
+    a gem that aims to provide an even simpler way to generate excel files than writeexcel.
+    beast_excel is probably not what you're looking for if you want to achieve more advanced stuff
+    like using excel formulas, charts etc.
+
+    but if you have some (text) data you want to export to excel, try it.
+  DESC
   gem.email = "goetzinger@mediapeers.com"
   gem.authors = ["Johannes-Kostas Goetzinger"]
   # dependencies defined in Gemfile
